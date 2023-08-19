@@ -1,0 +1,5 @@
+caer>=2.0.8
+ipython>=8.14.0
+matplotlib>=3.7.2
+numpy>=1.25.1
+opencv-contrib-python>=4.8.0.74
