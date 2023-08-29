@@ -145,4 +145,85 @@ cython_debug/
 */cmake_install.cmake
 .DS_Store
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#Python,OpenCV
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Python,OpenCV,JupyterNotebooks
+
+# custom
+cvcourse_*.yml
+00-NumPy-and-Image-Basics/00-NumPy-Arrays.ipynb
+00-NumPy-and-Image-Basics/01-Images-and-NumPy.ipynb
+00-NumPy-and-Image-Basics/03-Numpy-and-Image-Assessment.ipynb
+00-NumPy-and-Image-Basics/04-Numpy-and-Image-Assessment-Solution.ipynb
+02-Image-Processing/00-Color-Mappings.ipynb
+02-Image-Processing/01-Blending-and-Pasting-Images.ipynb
+02-Image-Processing/02-Image-Thresholding.ipynb
+02-Image-Processing/03-Blurring-and-Smoothing.ipynb
+02-Image-Processing/04-Morphological-Operators.ipynb
+02-Image-Processing/05-Gradients.ipynb
+02-Image-Processing/06-Histograms.ipynb
+02-Image-Processing/07-Image-Processing-Assessment.ipynb
+02-Image-Processing/08-Image-Processing-Assessment-Solution.ipynb
+01-Image-Basics-with-OpenCV/00-Opening-Image-Files-in-a-Notebook.ipynb
+01-Image-Basics-with-OpenCV/01-Opening-Image-Files-OpenCV.py
+01-Image-Basics-with-OpenCV/01-Opening-Images-with-OpenCV.ipynb
+01-Image-Basics-with-OpenCV/02-Drawing-on-Images.ipynb
+01-Image-Basics-with-OpenCV/03-Direct-Drawing-with-Mouse.ipynb
+01-Image-Basics-with-OpenCV/03-Direct-Drawing-with-Mouse.py
+01-Image-Basics-with-OpenCV/04-Image-Basics-Assessment.ipynb
+01-Image-Basics-with-OpenCV/05-Image-Basics-Assessment-Solution.ipynb
+01-Image-Basics-with-OpenCV/05-Solution.py
+01-Image-Basics-with-OpenCV/my_new_picture.jpg
+03-Video-Basics/00-Connecting-to-Camera.ipynb
+03-Video-Basics/01-Using-Video-Files.ipynb
+03-Video-Basics/02-Drawing-on-Live-Camera.ipynb
+03-Video-Basics/03-Video-Basics-Assessment.ipynb
+03-Video-Basics/04-Video-Basics-Assessment-Solution.ipynb
+04-Object-Detection/00-Template-Matching.ipynb
+04-Object-Detection/01-Corner-Detection.ipynb
+04-Object-Detection/02-Edge-Detection.ipynb
+04-Object-Detection/03-Grid-Detection.ipynb
+04-Object-Detection/04-Contour-Detection.ipynb
+04-Object-Detection/05-Feature-Matching.ipynb
+04-Object-Detection/06-Watershed-Algorithm.ipynb
+04-Object-Detection/07-Custom-Seeds-with-Watershed-Algo.ipynb
+04-Object-Detection/08-Face-Detection.ipynb
+04-Object-Detection/09-Detection-Assessment.ipynb
+04-Object-Detection/10-Detection-Assessment-Solution.ipynb
+06-Deep-Learning-Computer-Vision/00-Keras-Basics.ipynb
+06-Deep-Learning-Computer-Vision/01-Keras-CNN-MNIST.ipynb
+06-Deep-Learning-Computer-Vision/02-Keras-CNN-CIFAR-10.ipynb
+06-Deep-Learning-Computer-Vision/03-Deep-Learning-Custom-Images.ipynb
+06-Deep-Learning-Computer-Vision/05-DL-CV-Assessment.ipynb
+06-Deep-Learning-Computer-Vision/06-DL-CV-Assessment-Solution.ipynb
+06-Deep-Learning-Computer-Vision/cat_dog_100epochs.h5
+06-Deep-Learning-Computer-Vision/cat_dog.h5
+06-Deep-Learning-Computer-Vision/cifar_10epochs.h5
+06-Deep-Learning-Computer-Vision/larger_CIFAR10_model.h5
+06-Deep-Learning-Computer-Vision/myfirstmodel.h5
+06-Deep-Learning-Computer-Vision/06-YOLOv3/.gitignore
+06-Deep-Learning-Computer-Vision/06-YOLOv3/06-YOLO-Object-Detection.ipynb
+06-Deep-Learning-Computer-Vision/06-YOLOv3/demo.py
+06-Deep-Learning-Computer-Vision/06-YOLOv3/LICENSE
+06-Deep-Learning-Computer-Vision/06-YOLOv3/README.md
+06-Deep-Learning-Computer-Vision/06-YOLOv3/yad2k.py
+06-Deep-Learning-Computer-Vision/06-YOLOv3/cfg/yolo.cfg
+06-Deep-Learning-Computer-Vision/06-YOLOv3/data/coco_classes.txt
+06-Deep-Learning-Computer-Vision/06-YOLOv3/images/yolo.png
+06-Deep-Learning-Computer-Vision/06-YOLOv3/images/res/jingxiang-gao-489454-unsplash.jpg
+06-Deep-Learning-Computer-Vision/06-YOLOv3/images/res/person.jpg
+06-Deep-Learning-Computer-Vision/06-YOLOv3/images/test/jingxiang-gao-489454-unsplash.jpg
+06-Deep-Learning-Computer-Vision/06-YOLOv3/images/test/person.jpg
+06-Deep-Learning-Computer-Vision/06-YOLOv3/model/darknet53.py
+06-Deep-Learning-Computer-Vision/06-YOLOv3/model/yolo_model.py
