@@ -14,7 +14,7 @@ cv.waitKey(0)  # wait for key press, 0 means wait indefinitely
 
 #%%
 # Read video
-videoFrame = cv.VideoCapture('Videos/Sample 144p.mp4')
+videoFrame = cv.VideoCapture('Resources\Videos\Sample 144p.mp4')
 
 while True:
     isTrue, frame = videoFrame.read()
@@ -26,3 +26,5 @@ while True:
 
 videoFrame.release()
 cv.destroyAllWindows()
+
+# %%
