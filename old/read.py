@@ -21,7 +21,7 @@ while True:
 
     cv.imshow('Video', frame)
 
-    if cv.waitKey(20) & 0xFF == ord('d'):   # if 'd' is pressed or 20ms passed, exit
+    if cv.waitKey(20) & 0xFF == ord('d'):   # if 'd' is pressed after 20ms passed, exit
         break
 
 videoFrame.release()
